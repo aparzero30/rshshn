@@ -1,5 +1,5 @@
 import classes from "./sidebar.module.css";
-import SideOption from "./sideOption";
+import SideOption from "./sideoption";
 
 const SideBar = (props) => {
   const selectSideHandler = (code) => {
