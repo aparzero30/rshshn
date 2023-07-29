@@ -48,6 +48,8 @@
 }
 .secbtn button {
   display: none;
+  outline: none;
+  border: none;
 }
 @media screen and (max-width: 800px) {
   .filterdiv {

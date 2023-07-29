@@ -9,6 +9,6 @@ const Pagination = (props) => {
     props.onChange(number);
   };
 
-  return <div className={classes.pagination}>hello</div>;
+  return <div className={classes.pagination}>pagination</div>;
 };
 export default Pagination;
