@@ -1,0 +1,28 @@
+.filteroption {
+  border-width: 2px;
+  padding: 1vh;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #3648785f;
+  height: max-content;
+  max-height: max-content;
+  margin-left: 0.4vh;
+  margin-top: 0.3vh;
+  cursor: pointer;
+}
+.filteroption p {
+  margin: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .filteroption {
+    width: 22vw;
+    min-width: 22vw;
+    max-width: 22vw;
+  }
+  p {
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    overflow: hidden; /* Hides any overflowed content */
+    max-width: 11ch;
+  }
+}

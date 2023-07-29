@@ -1,0 +1,19 @@
+.pagination {
+  margin-top: 1vh;
+  padding: 1vh;
+  gap: 5px;
+  overflow: hidden;
+  height: max-content;
+  max-height: max-content;
+  width: 90vw;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  margin-bottom: 5vh;
+}

@@ -1,0 +1,20 @@
+.pagebox {
+  min-width: 2vw;
+  min-height: 2vw;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  cursor: pointer;
+  user-select: none;
+}
+@media screen and (max-width: 800px) {
+  .pagebox {
+    min-width: 5vh;
+    min-height: 5vh;
+  }
+}

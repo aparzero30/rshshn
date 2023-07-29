@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  align-items: flex-start;
+  height: 100vh;
+  max-height: max-content;
+  margin-top: 0.4vh;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,26 @@
+.sideoption {
+  min-height: 5vw;
+  min-width: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sideoption i {
+  font-size: 1.5vw;
+}
+.sideoption:hover {
+  background-color: #12192c;
+}
+
+@media screen and (max-width: 800px) {
+  .sideoption {
+    min-height: 20vw;
+    width: 33.33%;
+    border-radius: 5px;
+  }
+  .sideoption i {
+    font-size: 10vw;
+  }
+}

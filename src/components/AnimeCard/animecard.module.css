@@ -1,0 +1,31 @@
+.animecard {
+  min-width: 15vw;
+  max-width: 15vw;
+  height: 30vh;
+  background-color: rgb(106, 129, 150);
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.title {
+  width: 96%;
+  max-width: 96%;
+  height: max-content;
+  margin: 0;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Outer glow effect */
+  margin-left: 10px;
+}
+@media screen and (max-width: 800px) {
+  .animecard {
+    min-width: 43vw;
+  }
+  .title {
+    max-width: none;
+  }
+}

@@ -1,0 +1,23 @@
+.sidebar {
+  height: 100vh;
+  width: max-content;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2b49;
+  padding-left: 0.3vw;
+  font-family: "REM";
+  position: fixed;
+}
+@media screen and (max-width: 800px) {
+  .sidebar {
+    padding-top: 1vh;
+    flex-direction: row;
+    width: 100vw;
+    min-width: 100%;
+    height: max-content;
+    max-height: 10vh;
+    padding-left: 0vw;
+    top: 0;
+  }
+}

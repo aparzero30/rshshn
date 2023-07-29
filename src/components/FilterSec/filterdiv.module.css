@@ -1,0 +1,73 @@
+.filterdiv {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  width: 90vw;
+  max-width: 90vw;
+  height: max-content;
+  overflow-y: auto;
+  transition: ease 0.5s;
+}
+.categ {
+  margin-top: 1vh;
+  border-width: 2px;
+  padding: 1vh;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #3648785f;
+  gap: 1vh;
+  overflow: hidden;
+  height: max-content;
+  max-height: max-content;
+}
+.tab {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1vh;
+}
+.tab section {
+  width: 45vw;
+  max-width: 49vw;
+  display: flex;
+  flex-direction: row;
+  display: flex;
+}
+
+.secbtn button {
+  display: hidden;
+}
+
+.secbtn {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.tab section h4 {
+  margin: 0;
+  margin-right: 1vh;
+}
+.secbtn button {
+  display: none;
+}
+@media screen and (max-width: 800px) {
+  .filterdiv {
+    margin-left: 1vh;
+    max-height: max-content;
+    height: max-content;
+    min-height: 10vh;
+  }
+  .categ {
+    overflow: scroll;
+  }
+  .secbtn button {
+    display: flex;
+    background-color: #364878;
+    max-height: 3vh;
+    border-radius: 0;
+    display: hidden;
+    justify-content: center;
+    align-items: center;
+    min-width: 5vw;
+    border-radius: 4px;
+  }
+}
